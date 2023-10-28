@@ -664,6 +664,9 @@
 				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/WoWDemonHunterClass/ClassIcons/Icon_VengeanceDemonHunter.png"/>
 			</DataTrigger>
 			<!--EDIT HERE-->
+			<DataTrigger Binding="{Binding SubclassIDString}" Value="CircleofWildfire">
+				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/CircleofWildfire/ClassIcons/CircleofWildfire.png"/>
+			</DataTrigger>
 		</Style.Triggers>
 	</Style>
 
@@ -809,6 +812,9 @@
 				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/WoWDemonHunterClass/ClassIcons/hotbar/Icon_VengeanceDemonHunter.png"/>
 			</DataTrigger>
 			<!--EDIT HERE-->
+			<DataTrigger Binding="{Binding SubclassIDString}" Value="CircleofWildfire">
+				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/CircleofWildfire/ClassIcons/hotbar/CircleofWildfire.png"/>
+			</DataTrigger>
 		</Style.Triggers>
 	</Style>
 </ResourceDictionary>
